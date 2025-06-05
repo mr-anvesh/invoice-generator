@@ -6,7 +6,23 @@ export default function Home() {
   return (
     <main className="container mx-auto py-6 sm:py-10 px-4">
       <div className="flex justify-between items-center mb-4 sm:mb-6">
-        <h1 className="text-2xl sm:text-3xl font-bold">Invoice Generator</h1>
+        <div className="flex items-center gap-6">
+          <h1 className="text-2xl sm:text-3xl font-bold">Invoice Generator</h1>
+          <nav className="flex gap-4">
+            <Link 
+              href="/" 
+              className="text-sm hover:text-foreground transition-colors text-muted-foreground"
+            >
+              Generator
+            </Link>
+            <Link 
+              href="/api-demo" 
+              className="text-sm hover:text-foreground transition-colors text-muted-foreground"
+            >
+              API Demo
+            </Link>
+          </nav>
+        </div>
         <ThemeToggle />
       </div>
       <InvoiceGenerator />
