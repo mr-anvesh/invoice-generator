@@ -13,7 +13,7 @@ export default function Home() {
               href="/" 
               className="text-sm hover:text-foreground transition-colors text-muted-foreground"
             >
-              Generator
+              Canvas Demo
             </Link>
             <Link 
               href="/api-demo" 

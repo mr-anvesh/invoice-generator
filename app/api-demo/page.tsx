@@ -133,7 +133,7 @@ export default function ApiDemo() {
               href="/" 
               className="text-sm hover:text-foreground transition-colors text-muted-foreground"
             >
-              Generator
+              Canvas Demo
             </Link>
             <Link 
               href="/api-demo" 
